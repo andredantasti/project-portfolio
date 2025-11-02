@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    max-width: 100%;
+    backface-visibility: visible;
+    position: relative;
+    margin: 0 auto;
+    background-color: #111;
+    
+}
+
+main{
+    background-image: url("../images/imagem-1440.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu-button{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.menu-button > li:hover{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    height: 100%;    
+}
+
+.presentation > h1{
+    font-size: 4rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.presentation > h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: underline;
+    font-style: medium;
+    text-underline-offset: 10px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+
+}
+
+.container > .sobre{
+    margin: 0 auto;
+}
+
+.sobre{
+    width: 80%;
+    height: 711px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px;
+    background-color: #111111;
+}
+
+.sobre p{
+    font-size: 1rem;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 2.8rem;
+    color:white;
+    text-decoration: underline 2px;
+    text-underline-offset: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    padding-bottom: 60px;
+    
+}
+
+.sobre h3{
+    text-align: center;
+    font-size: 1rem;
+    color:white
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.github {
+  background: #24292e;
+  color: #fff;
+}
+
+.linkedin {
+  background: #0077b5;
+  color: #fff;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.habilidades{
+    padding: 120px 0px 120px 0px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+.habilidades > h2{
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 0px 0px 120px 0px;
+    text-decoration: underline 2px;
+    text-underline-offset: 30px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.materia{
+    width: 366px;
+    height: 354px;
+    margin: 20px;
+    background-color: #202020;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.typescript img{
+    width: 100px;
+}
+
+.typescript > p {
+    font-size: 0.9rem;
+}
+
+
+.typescript > h5{
+    font-size: 1rem;
+}
+
+.react > img {
+    width: 100px;
+}
+
+
+.react > p {
+    font-size: 0.9rem;
+}
+
+
+.react > h5{
+    font-size: 1rem;
+}
+
+.github > img{
+    width: 100px;
+}
+
+
+.github > p {
+    font-size: 0.9rem;
+}
+
+.github > h5{
+    font-size: 1rem;
+}
+
+#primeiro-projeto{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    background-color: #24292e;
+   
+}
+
+#primeiro-projeto > img{
+    width: 400px;
+    padding-right: 50px;
+    background-color: #24292e;
+    padding: 20px;
+}
+
+#segundo-projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+#segundo-projeto > img{
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 50px;
+    
+}
+
+#terceiro-projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #24292e;
+    padding: 20px;
+}
+
+#terceiro-projeto > img{
+    width: 400px;
+    height: auto;
+    padding-right: 50px;
+   
+}
+
+#quarto-projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+
+
+}
+
+#quarto-projeto > img {
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.projetos{
+    padding: 120px;
+    color: white;
+    background-color: #111111;
+    width: 80%;
+}
+
+.projetos > h2:first-child{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline 2px;
+    text-underline-offset: 30px;
+    letter-spacing: 10px;
+    padding-bottom: 98px;
+    font-weight: 500;
+    
+}
+
+.title-projeto{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#primeiro-projeto, #segundo-projeto, #terceiro-projeto, #quarto-projeto{
+    margin-top: 60px;
+   
+}
+
+.container > .projetos{
+    margin: 0 auto;
+}
+
+.container > .contact{
+    margin: 0 auto;
+}
+
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    color: #ffffff;
+    padding: 120px 0 120px 0;
+    
+}
+input{
+    display: block;
+
+}
+
+.contact > h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline 2px;
+    text-underline-offset: 30px;
+    letter-spacing: 10px;
+    padding-bottom: 98px;
+    font-weight: 500;
+}
+
+.contact input, textarea{
+    width: 800px;
+    height: 70px;
+    margin: 20px 0 20px 0;
+    border-radius: 20px;
+    padding-left: 15px;
+    
+}
+
+textarea{
+    padding-top: 10px;
+    background-color: #202020;
+    height: 190px;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+
+#name, #email{
+    background-color: #202020;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#btnEnviar{
+    background-color: #000000;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+}
+
+#btnEnviar:hover{
+    background-color: #24292e;
+    cursor: pointer;
+    color: chartreuse;
+}
+
+footer{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+footer > div > img{
+    margin-right: 20px;
+}

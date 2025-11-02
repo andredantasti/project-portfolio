@@ -1,0 +1,320 @@
+@media (max-width: 390px) {
+
+    .container{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    .container > .presentation{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu-button{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    height: 100%;   
+    padding: 10px; 
+}
+
+.presentation > h1{
+    font-size: 3rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    line-height: 50px;
+}
+
+.presentation > h3{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: underline;
+    font-style: medium;
+    text-underline-offset: 10px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    margin-top: 10px;
+}
+
+
+.sobre{
+    width: 100%;
+    height: 711px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background-color: #111111;
+}
+
+.sobre p{
+    font-size: 0.7rem;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    text-decoration: underline 2px;
+    text-underline-offset: 20px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding-bottom: 40px;
+    
+}
+
+.sobre h3{
+    text-align: center;
+    font-size: 1rem;
+    color:white
+}
+
+
+
+.habilidades{
+    padding: 20px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+.habilidades > h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 0px 0px 40px 0px;
+    text-decoration: underline 2px;
+    text-underline-offset: 20px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    
+}
+
+
+.projetos{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #111111;
+    width: 80%;
+}
+
+.projetos > div{
+    padding: 30px 0 30px 0;
+}
+
+.projetos > h2:first-child{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline 2px;
+    text-underline-offset: 20px;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    
+}
+
+.title-projeto{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#primeiro-projeto, #segundo-projeto, #terceiro-projeto, #quarto-projeto{
+    margin-top: 0px;
+    display: block;
+   
+}
+
+
+#primeiro-projeto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+   
+}
+
+#primeiro-projeto > img{
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+#primeiro-projeto > div > p{
+    font-size: 0.8rem;
+}
+
+#segundo-projeto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#segundo-projeto > img{
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#segundo-projeto > div > p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+#terceiro-projeto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 20px;
+   
+}
+
+#terceiro-projeto > img{
+    width: 250px;
+    height: auto;
+    padding: 0;
+    border-radius: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#terceiro-projeto > div > p{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+#quarto-projeto{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+
+
+}
+
+#quarto-projeto > img {
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 0px;
+}
+
+#quarto-projeto > div > p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-projeto{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.projetos > p {
+    font-size: 0.2rem;
+}
+
+.contact{
+    padding: 30px 0 30px 0;
+}
+
+.contact input, textarea{
+    width: 330px;
+    height: 54px;
+    margin: 20px 0 20px 0;
+    border-radius: 20px;
+    padding-left: 15px;
+    
+}
+
+textarea{
+    padding-top: 10px;
+    background-color: #202020;
+    height: 190px;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+
+.contact > h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline 2px;
+    text-underline-offset: 15px;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.html > img{
+    width: 80px;
+}
+
+.css > img {
+    width: 80px;
+}
+
+.javascript > img {
+    width: 80px;
+}
+
+.typescript > img{
+    width: 80px;
+}
+
+.typescript > p{
+    font-size: 0.8rem;
+}
+
+.react > img {
+    width: 80px;
+}
+
+.react > p {
+    font-size: 0.8rem;
+}
+
+.github > img {
+    width: 80px;
+}
+
+.github > p {
+    font-size: 0.8rem ;
+}
+
+}
