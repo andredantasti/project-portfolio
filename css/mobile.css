@@ -29,10 +29,10 @@
 .menu-button{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 8px;
     color: #ffffff;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .presentation{

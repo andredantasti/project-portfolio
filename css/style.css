@@ -19,6 +19,8 @@ main{
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+
+    
 }
 
 .container{
@@ -35,6 +37,7 @@ main{
     justify-content: flex-end;
     align-items: center;
     padding: 20px;
+    letter-spacing: 0.1rem;
 
 }
 
